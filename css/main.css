@@ -1,12 +1,11 @@
 
 html {
   box-sizing: border-box;
-  line-height: 1.125rem;
-  color: #222;
-  padding-left: .7rem;
-  padding-right: .7rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  border: 2px;
+  font-family: "Crimson Text", serif;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  line-height: 1.3rem;
 }
 
 *, *::before, *::after {
@@ -15,60 +14,64 @@ html {
 
 body {
   margin: 0;
-  margin-bottom: 1rem;
-  border-top: 1em;
-  border-bottom: 1em;
-  border: 2px;
-  border-color: #999;
-  line-height: 1.3em;
+  padding-left: .25rem;
+  padding-right: 1rem;
+  max-width: 19rem;
+  min-width: 19rem;
+  line-height: 1.31;
 }
 
 article {
-  font-family: "Crimson Text", serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 1rem;
-  line-height: .9rem;
+  border-bottom: 1px solid #999;
+  padding-bottom: 5px;
 }
 
 article header {
-  font-style: italic;
-  color: #222;
-  line-height: 0;
-  font-weight: lighter;
+  line-height: .3;
+  margin-top: 2.2rem;
 }
 
-article header p {
-  font-style: italic;
-  font-weight: normal;
+h1 + p {
+  line-height: 0;
 }
 
 article h1 {
   font-size: 1.5rem;
-  font-style: normal;
-  font-weight: lighter;
+  font-weight: normal;
+  color: #222;
+}
+
+article header p {
+  border-bottom: 1px solid #999;
+  padding-bottom: 30px;
+  font-style: italic;
+  font-size: 1em;
+  color: #222;
 }
 
 article p {
-  font-style: normal;
-  line-height: 1.3em;
-}
-
-blockquote {
-  padding-right: .5rem;
-  color: #555;
-  line-height: 1em;
-  font-size: 1.125rem;
-}
-
-.quote {
-  font-weight: lighter;
-  color: #999;
+  color: #222;
+  padding-top: 2px;
 }
 
 article ol {
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-  padding-left: 1.2rem;
-  line-height: 1.1rem;
+  text-align: left;
+  padding-left: 1rem;
+  color: #222;
+  padding-top: .8rem;
+}
+
+blockquote {
+  color: #555;
+  font-size: 1.125rem;
+}
+
+blockquote p {
+  color: #555;
+
+}
+
+.quote {
+  font-size: 1rem;
+  color: #999;
 }
