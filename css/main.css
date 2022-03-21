@@ -1,14 +1,10 @@
 
 html {
   box-sizing: border-box;
-  font-family: "Crimson Text", serif;
-  font-size: 1.125rem;
-  font-style: italic;
-  font-weight: normal;
-  line-height: 1.3em;
+  line-height: 1.125rem;
   color: #222;
-  padding-left: .5rem;
-  padding-right: .5rem;
+  padding-left: .7rem;
+  padding-right: .7rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -19,23 +15,26 @@ html {
 
 body {
   margin: 0;
+  margin-bottom: 1rem;
   border-top: 1em;
   border-bottom: 1em;
   border: 2px;
   border-color: #999;
+  line-height: 1.3em;
 }
 
 article {
+  font-family: "Crimson Text", serif;
   font-style: normal;
-  font-size: .9rem;
-  line-height: 1rem;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: .9rem;
 }
 
 article header {
-  font-family: "Crimson Text", serif;
   font-style: italic;
   color: #222;
-  line-height: .01rem;
+  line-height: 0;
   font-weight: lighter;
 }
 
@@ -59,14 +58,17 @@ blockquote {
   padding-right: .5rem;
   color: #555;
   line-height: 1em;
-  font-size: 1rem;
+  font-size: 1.125rem;
 }
 
 .quote {
   font-weight: lighter;
+  color: #999;
 }
 
 article ol {
   padding-top: .5rem;
   padding-bottom: .5rem;
+  padding-left: 1.2rem;
+  line-height: 1.1rem;
 }
